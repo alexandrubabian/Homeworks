@@ -1,0 +1,15 @@
+Babian Stelian ALexandru 312CD
+	Consider ca aceasta tema a fost mai degraba un laborator cu o aplicabilitate practica.
+	La prima parte, arbori de intervale, am facut conversia algoritmului din pseudocod in C
+plus alocarile de memorie, respectiv initializarile de inceput.
+	La partea a doua, am creat 4 functii ajutatoare, de minim, maxim, daca un segment
+este perpendicular, respectiv orizontal. 
+	Metoda triviala verifica segment cu segment, 2 cate 2 si daca gaseste 2 orientate diferit
+atunci verifica daca ele se intersecteaza si daca da, incrementeaza.
+	Metoda cu arbori de intervale se foloseste de un vector de pointer de marime dubla fata de
+dimensiunea listei si este de un tip structura creata de mine care retine si pozitia initiala ,
+dar si daca segmentul este perpendicular sau nu.Acest vector este sortat prin metoda bulelor si dupa
+este folosita functia de actualizare cu intervalul [y,y] cu 1 sau -1 in functie de caz.
+	Functiile de la bonus nu le-am facut ca am ramas in pana de timp...
+
+
